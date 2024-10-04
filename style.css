@@ -1,0 +1,30 @@
+/*Sibling Selector*/
+h1 + p {
+    background-color:rgba(7, 95, 29, 0.986);
+    padding:15px;
+    border-radius:2px;
+  }
+  body {
+   background-color:rgb(64, 23, 179);
+  /*nth-child(n) pseudo class*/
+  ul li :nth-child(3)
+  {color:rgb(89, 97, 134);}
+  /*not selector pseudo class*/
+  p:not(:first-of-type)
+  {text-decoration: overline;} body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(48, 194, 199);
+    color:rgb(44, 23, 165);
+ }
+ 
+ /*Attribute Selector*/
+  a {
+    color:rgb(96, 91, 163);
+    text-decoration:underline;
+  }
+  a:hover {
+    color:darkred
+  }
+  /*Child Selector*/
+  ul > li {
+    font-weight:"bold";}
